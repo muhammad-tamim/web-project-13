@@ -8,7 +8,105 @@
 
 ## What I Learned New while Building This Project:
 
-## What Changes I face While Building This Project:
+### 1. Different Ways to add Google fonts:  
+
+   - Way-1: Inside the HTML:
+  
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonsts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+       rel="stylesheet">
+   <link rel="stylesheet" href="styles/style.css">
+
+
+</head>
+
+
+<body style="font-family: 'Roboto Condensed';">
+   <h1>Hello</h1>
+</body>
+
+</html>
+
+```
+
+OR 
+
+```html 
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonsts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+       rel="stylesheet">
+   <link rel="stylesheet" href="styles/style.css">
+</head>
+
+
+<body>
+   <h1>Hello</h1>
+</body>
+
+
+</html>
+```
+```css
+body {
+   font-family: "Roboto Condensed";
+}
+
+```  
+   - Way-2: Inside the CSS  
+  
+```css
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+   font-family: 'Roboto Condensed';
+}
+```
+**NOTE:** @import is slower than <link> because it blocks rendering until CSS is loaded.
+
+### 2. Full PageVisualization:
+
+If we set the border to the universal selector, then we got something like this:
+
+```css
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto Condensed';
+   background-color: var(--eye-ball);
+   border: 1px solid red;
+}
+```
+
+![FUll page visualization](./assets/images/full-page-visualization.png)
+
+### 3. How to create a Hamburger Menu:
+
+## What Challenges I face While Building This Project:
 
 ## Connect With Me:
 
