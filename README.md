@@ -119,7 +119,14 @@ padding-block: 1rem;      /* shorthand for block-start + block-end */
 padding-block-start: 1rem;
 padding-block-end: 1rem;
 ```
+### 4. HTML Entity: 
 
+```html 
+ <a href="#" class="btn">Sign In &nbsp; <i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+```
+here, 
+
+- ```&nbsp;``` (non-breaking space) = It represents a space character
 
 ## What Challenges I face While Building This Project:
 
