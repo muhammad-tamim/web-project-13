@@ -106,6 +106,21 @@ If we set the border to the universal selector, then we got something like this:
 
 ### 3. How to create a Hamburger Menu:
 
+### 4. CSS Logical Properties:
+-  Inline = horizontal (left to right)
+-  Block = Vertical (top to bottom)
+
+```css
+padding-inline: 1.5rem;   /* shorthand for inline-start + inline-end */
+padding-inline-start: 1.5rem;
+padding-inline-end: 1.5rem;
+
+padding-block: 1rem;      /* shorthand for block-start + block-end */
+padding-block-start: 1rem;
+padding-block-end: 1rem;
+```
+
+
 ## What Challenges I face While Building This Project:
 
 ## Connect With Me:
