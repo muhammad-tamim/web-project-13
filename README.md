@@ -128,16 +128,32 @@ here,
 
 - ```&nbsp;``` (non-breaking space) = It represents a space character
 
+### 5.   
+```css
+.cart-icon .cart-value {
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    font-size: .85rem;
+    width: 20px;
+    line-height: 20px;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    background: var(--gold-finger);
+    color: var(--lead);
+    text-align: center;
+}
+```
+here, 
+- ```width: 20px; line-height: 20px;``` = This makes it vertically center
+- ``` aspect-ratio: 1;``` = makes height = width, so the element stays a perfect square regardless of width.
+
 ## What Challenges I face While Building This Project:
-
-## Connect With Me:
-
-[![LinkedIn](./assets/images/linkedin.png "https://www.linkedin.com/in/tamim-muhammad/")](https://www.linkedin.com/in/tamim-muhammad/)
-
 
 ## Contact With Me: 
 
 [![Gmail](./assets/images/gmail.png "contact2tamim@gmail.com")](contact2tamim@gmail.com)
+[![LinkedIn](./assets/images/linkedin.png "https://www.linkedin.com/in/tamim-muhammad/")](https://www.linkedin.com/in/tamim-muhammad/)
 
 ---
 
