@@ -126,7 +126,7 @@ const addToCart = (product) => {
 }
 
 const initApp = () => {
-    fetch("../assets/products.json")
+    fetch("products.json")
         .then(res => res.json())
         .then(data => {
             productList = data;
