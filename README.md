@@ -148,6 +148,12 @@ here,
 - ```width: 20px; line-height: 20px;``` = This makes it vertically center
 - ``` aspect-ratio: 1;``` = makes height = width, so the element stays a perfect square regardless of width.
 
+
+### 6. How to integrate swiper on project.
+
+![Alt text](./assets/images/swiper.gif)
+
+
 ## What Challenges I face While Building This Project:
 
 ## Contact With Me: 
