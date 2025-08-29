@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto Condensed", sans-serif;
+    /* border: 1px solid red; */
 }
 
 :root {
@@ -287,6 +288,26 @@ h4 {
 }
 
 
+
+/* Our Application */
+.app-container {
+    background: var(--hint-yellow);
+    padding: 3rem 6rem;
+    border-radius: 3rem;
+    flex: 1;
+}
+
+
+.app-container .image-container img {
+    width: 25rem;
+}
+
+.app-container .content h2 {
+    font-size: 4.5rem;
+}
+
+
+
 /* Media Queries */
 @media screen and (max-width: 780px) {
 
@@ -348,5 +369,15 @@ h4 {
     /* Our Services Section */
     h2 {
         font-size: 3rem;
+    }
+
+
+    /* Our Application Section */
+    .app-container {
+        padding: 2.2rem;
+    }
+
+    .app-container .content h2 {
+        font-size: 3.5rem;
     }
 }
