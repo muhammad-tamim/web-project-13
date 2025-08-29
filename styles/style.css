@@ -75,6 +75,12 @@ img {
     margin-top: 4rem;
 }
 
+.m-auto {
+    margin: auto;
+}
+
+
+
 /* Navbar */
 .navbar {
     min-height: 14vh;
@@ -306,6 +312,30 @@ h4 {
     font-size: 4.5rem;
 }
 
+
+
+/* Newsletter Section */
+.input-container {
+    width: 43rem;
+    max-width: 100%;
+    background-color: var(--pure-white);
+    padding: .8rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 5px 8px;
+    border-radius: 1rem;
+}
+
+input[type="email"] {
+    flex: 1;
+    height: 7vh;
+    background: transparent;
+    border: none;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+}
+
+input[type="email"]:focus {
+    outline: none;
+}
 
 
 /* Media Queries */
