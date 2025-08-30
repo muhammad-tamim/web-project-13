@@ -259,6 +259,7 @@ h4 {
     background: var(--hint-yellow);
     position: fixed;
     inset: 0 -500px 0 auto;
+    /*top 0 right -500px bottom 0 left auto; */
     width: 25rem;
     padding-block: 2rem;
     display: flex;
